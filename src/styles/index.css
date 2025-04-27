@@ -1,0 +1,8 @@
+.big-counter {
+  font-size: 3rem;
+}
+
+.digit {
+  min-width: 150px;
+  text-align: center;
+}
