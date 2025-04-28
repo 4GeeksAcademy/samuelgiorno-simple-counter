@@ -4,8 +4,6 @@ import { faClock } from "@fortawesome/free-solid-svg-icons";
 
 const SecondsCounter = (props) => {
   const seconds = props.seconds;
-
-  // Calcular cada dígito
   const six = Math.floor(seconds / 100000) % 10;
   const five = Math.floor(seconds / 10000) % 10;
   const four = Math.floor(seconds / 1000) % 10;
